@@ -31,4 +31,5 @@ fields:
       section: products
   label: Related Products
 pages:
+- content/projects/project-b.md
 - content/projects/project-a.md

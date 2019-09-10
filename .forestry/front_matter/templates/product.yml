@@ -21,5 +21,6 @@ fields:
   config: {}
   label: Images
 pages:
+- content/products/product-c.md
 - content/products/product-b.md
 - content/products/product-a.md

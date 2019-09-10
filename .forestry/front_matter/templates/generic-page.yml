@@ -18,3 +18,16 @@ fields:
       format: markdown
   label: Page Description
   description: Describes the content that appears on the page
+- name: content_blocks
+  type: field_group_list
+  fields:
+  - name: content_block
+    type: include
+    config: {}
+    template: full-screen-content-block
+    label: Block
+  config:
+    min: '1'
+    max: 
+    labelField: 
+  label: Content Blocks

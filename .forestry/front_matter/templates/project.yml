@@ -30,3 +30,5 @@ fields:
       type: pages
       section: products
   label: Related Products
+pages:
+- content/projects/project-a.md

@@ -1,4 +1,47 @@
 ---
 label: Full Screen Content Block
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: true
+  label: Header
+- name: body_content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body Content
+- name: hero_image
+  type: file
+  config:
+    maxSize: 250
+  label: Hero Image
+- name: image_position
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Image Position
+- name: call_to_action_url
+  type: text
+  config:
+    required: false
+  label: Call to action URL
+- name: call_to_action_label
+  type: text
+  config:
+    required: false
+  label: Call To Action Label

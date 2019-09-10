@@ -31,9 +31,5 @@ fields:
     max: 
     labelField: 
   label: Content Blocks
-- name: product_tags
-  type: tag_list
-  default: []
-  label: Product Tags
 pages:
 - content/pages/mission.md

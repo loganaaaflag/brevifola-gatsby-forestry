@@ -1,4 +1,20 @@
 ---
 label: Generic Page
 hide_body: true
-fields: []
+fields:
+- name: page_title
+  type: text
+  config:
+    required: true
+  label: Page Title
+  description: The name of the page being created
+- name: page_description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Description
+  description: Describes the content that appears on the page

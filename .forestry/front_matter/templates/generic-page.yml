@@ -31,3 +31,5 @@ fields:
     max: 
     labelField: 
   label: Content Blocks
+pages:
+- content/pages/who-we-are.md
